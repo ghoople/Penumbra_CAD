@@ -1,0 +1,6 @@
+﻿"Width" = 52.5
+"Length"=192
+"D1@Lower Level"="Length"
+"D2@Lower Level"="Width"
+"D1@Sketch12"="Length"
+"D2@Sketch12"="Width"
