@@ -1,0 +1,414 @@
+{
+  "settings": {
+    "analysis_type": 0,
+    "accurate_buckling_shape": false,
+    "units": {
+      "length": "ft",
+      "section_length": "in",
+      "material_strength": "ksi",
+      "density": "lb/ft3",
+      "force": "kip",
+      "moment": "kip-ft",
+      "pressure": "ksf",
+      "mass": "kip",
+      "translation": "in",
+      "stress": "ksi",
+      "temperature": "degf"
+    },
+    "precision": "fixed",
+    "precision_values": 0,
+    "evaluation_points": 0,
+    "non_linear_tolerance": 0,
+    "auto_stabilize_model": false,
+    "analysis_report": false,
+    "vertical_axis": "y"
+  },
+  "nodes": {
+    "1": {
+      "x": 0.2794,
+      "y": 0.0,
+      "z": 0.6223
+    },
+    "2": {
+      "x": 0.2794,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "3": {
+      "x": 0.2794,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "4": {
+      "x": 0.1397,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "5": {
+      "x": 0.1397,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "6": {
+      "x": 0.1397,
+      "y": 0.0,
+      "z": 0.6223
+    },
+    "7": {
+      "x": 0.4191,
+      "y": 0.0889,
+      "z": 0.5207
+    },
+    "8": {
+      "x": 0.4191,
+      "y": 0.0889,
+      "z": 0.381
+    },
+    "9": {
+      "x": 0.4191,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "10": {
+      "x": 0.2794,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "11": {
+      "x": 2.1336,
+      "y": 0.1397,
+      "z": -2.4384
+    },
+    "12": {
+      "x": 2.1336,
+      "y": 0.0,
+      "z": -2.4384
+    },
+    "13": {
+      "x": 1.1557,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "14": {
+      "x": 1.1557,
+      "y": 0.0,
+      "z": -4.8768
+    },
+    "15": {
+      "x": 3.1115,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "16": {
+      "x": 3.1115,
+      "y": 0.0,
+      "z": -4.8768
+    },
+    "17": {
+      "x": -0.3048,
+      "y": 0.1397,
+      "z": -3.4163
+    },
+    "18": {
+      "x": 4.572,
+      "y": 0.1397,
+      "z": -3.4163
+    },
+    "19": {
+      "x": 4.572,
+      "y": 0.1397,
+      "z": -1.4605
+    },
+    "20": {
+      "x": -0.3048,
+      "y": 0.1397,
+      "z": -1.4605
+    }
+  },
+  "members": {
+    "1": {
+      "type": "normal_continuous",
+      "node_A": 1,
+      "node_B": 2,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "2": {
+      "type": "normal_continuous",
+      "node_A": 3,
+      "node_B": 4,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "3": {
+      "type": "normal_continuous",
+      "node_A": 5,
+      "node_B": 6,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "4": {
+      "type": "normal_continuous",
+      "node_A": 7,
+      "node_B": 8,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "5": {
+      "type": "normal_continuous",
+      "node_A": 9,
+      "node_B": 10,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "6": {
+      "type": "normal_continuous",
+      "node_A": 11,
+      "node_B": 12,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "7": {
+      "type": "normal_continuous",
+      "node_A": 13,
+      "node_B": 14,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "8": {
+      "type": "normal_continuous",
+      "node_A": 15,
+      "node_B": 16,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "9": {
+      "type": "normal_continuous",
+      "node_A": 17,
+      "node_B": 18,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    },
+    "10": {
+      "type": "normal_continuous",
+      "node_A": 19,
+      "node_B": 20,
+      "section_id": 1,
+      "rotation_angle": 0.0,
+      "fixity_A": "FFFFFF",
+      "fixity_B": "FFFFFF",
+      "local_axis_y": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset_Ax": "0",
+      "offset_Bx": "0",
+      "offset_Ay": "0",
+      "offset_By": "0",
+      "offset_Az": "0",
+      "offset_Bz": "0"
+    }
+  },
+  "sections": {},
+  "plates": {
+    "1": {
+      "material_id": 0,
+      "rotZ": 0.0,
+      "type": "mindlin",
+      "offset": 0.0,
+      "state": "stress",
+      "isMeshed": true,
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "thickness": 0.0,
+      "diaphragm": "no",
+      "membrane_thickness": 0.0,
+      "shear_thickness": 0.0,
+      "bending_thickness": 0.0,
+      "name": "floor",
+      "holes": []
+    },
+    "2": {
+      "material_id": 0,
+      "rotZ": 0.0,
+      "type": "mindlin",
+      "offset": 0.0,
+      "state": "stress",
+      "isMeshed": true,
+      "nodes": [
+        7,
+        8
+      ],
+      "thickness": 0.0,
+      "diaphragm": "no",
+      "membrane_thickness": 0.0,
+      "shear_thickness": 0.0,
+      "bending_thickness": 0.0,
+      "name": "floor",
+      "holes": []
+    },
+    "3": {
+      "material_id": 0,
+      "rotZ": 0.0,
+      "type": "mindlin",
+      "offset": 0.0,
+      "state": "stress",
+      "isMeshed": true,
+      "nodes": [
+        9,
+        10
+      ],
+      "thickness": 0.0,
+      "diaphragm": "no",
+      "membrane_thickness": 0.0,
+      "shear_thickness": 0.0,
+      "bending_thickness": 0.0,
+      "name": "floor",
+      "holes": []
+    }
+  },
+  "supports": {},
+  "materials": {
+    "1": {
+      "version": "1",
+      "name": "General Structural Steel",
+      "density": 0.0,
+      "elasticity_modulus": 0.0,
+      "poissons_ratio": 0.0,
+      "class": "Steel",
+      "yield_strength": 0.0,
+      "ultimate_strength": 0.0
+    }
+  },
+  "point_loads": {},
+  "distributed_loads": {},
+  "moments": {},
+  "pressures": {},
+  "self_weight": {},
+  "load_combinations": {},
+  "gridlines_and_elevations": null
+}
